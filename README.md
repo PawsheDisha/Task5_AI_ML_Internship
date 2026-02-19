@@ -17,59 +17,58 @@ Features include age, cholesterol, blood pressure, chest pain type, etc.
 
 **Tools & Libraries Used**
 
--Python
--Pandas
--NumPy
--Scikit-learn
--Matplotlib
--Graphviz (for tree visualization)
+  -Python
+  -Pandas
+  -NumPy
+  -Scikit-learn
+  -Matplotlib
 
 
 **Steps Performed**
 
 1️⃣ Data Preprocessing
 
--Loaded dataset using pandas
--Checked for missing values
--Split data into features (X) and target (y)
--Performed train-test split (80:20)
+  -Loaded dataset using pandas
+  -Checked for missing values
+  -Split data into features (X) and target (y)
+  -Performed train-test split (80:20)
 
 2️⃣ Decision Tree Model
 
--Trained DecisionTreeClassifier
--Evaluated accuracy
--Visualized the tree structure
--Analyzed overfitting by comparing train and test accuracy
+  -Trained DecisionTreeClassifier
+  -Evaluated accuracy
+  -Visualized the tree structure
+  -Analyzed overfitting by comparing train and test accuracy
 
 3️⃣ Overfitting Control
 
--Controlled tree depth using max_depth
--Used min_samples_split
--Observed improvement in generalization
+  -Controlled tree depth using max_depth
+  -Used min_samples_split
+  -Observed improvement in generalization
 
 4️⃣ Random Forest Model
 
--Trained RandomForestClassifier
--Compared accuracy with Decision Tree
--Observed better performance due to ensemble learning
+  -Trained RandomForestClassifier
+  -Compared accuracy with Decision Tree
+  -Observed better performance due to ensemble learning
 
 5️⃣ Feature Importance
 
--Extracted feature importance scores
--Plotted bar graph to interpret influential features
--Identified most important medical factors contributing to prediction
+  -Extracted feature importance scores
+  -Plotted bar graph to interpret influential features
+  -Identified most important medical factors contributing to prediction
 
 6️⃣ Cross-Validation
 
--Applied 5-fold cross-validation
--Calculated average accuracy for reliable model evaluation
+  -Applied 5-fold cross-validation
+  -Calculated average accuracy for reliable model evaluation
 
 
 **Results**
 
--Random Forest performed better than a single Decision Tree
--Controlled tree depth reduced overfitting
-=Feature importance helped identify key predictors
+  -Random Forest performed better than a single Decision Tree
+  -Controlled tree depth reduced overfitting
+  -Feature importance helped identify key predictors
 
 
 **Conclusion**
