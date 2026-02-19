@@ -17,11 +17,11 @@ Features include age, cholesterol, blood pressure, chest pain type, etc.
 
 **Tools & Libraries Used**
 
-  -Python
-  -Pandas
-  -NumPy
-  -Scikit-learn
-  -Matplotlib
+  --Python
+  --Pandas
+  --NumPy
+  --Scikit-learn
+  --Matplotlib
 
 
 **Steps Performed**
